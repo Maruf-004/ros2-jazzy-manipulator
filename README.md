@@ -195,7 +195,7 @@ This project is released under the **MIT License** (see `LICENSE`).
 
 ```md
 ![RViz](media/Rviz2.png)
-![Gazebo & MoveIt](media/Gazebo&moveit.png)
+![Gazebo & MoveIt](media/Gazebo_MoveIt.png)
 ```
 
 ---
