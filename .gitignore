@@ -1,0 +1,30 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+.colcon*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake/Cpp
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.so
+
+# Editors/IDE
+.vscode/
+*.code-workspace
+.idea/
+
+# Misc
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

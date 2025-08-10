@@ -1,0 +1,13 @@
+digraph G {
+"base_link" -> "base_plate"[label=" Broadcaster: default_authority\nAverage rate: 10.43\nBuffer length: 2.205\nMost recent transform: 1754769461.523569\nOldest transform: 1754769459.318417\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_plate" -> "forward_drive_arm"[label=" Broadcaster: default_authority\nAverage rate: 10.43\nBuffer length: 2.205\nMost recent transform: 1754769461.523569\nOldest transform: 1754769459.318417\n"];
+"forward_drive_arm" -> "horizontal_arm"[label=" Broadcaster: default_authority\nAverage rate: 10.43\nBuffer length: 2.205\nMost recent transform: 1754769461.523569\nOldest transform: 1754769459.318417\n"];
+"claw_support" -> "gripper_right"[label=" Broadcaster: default_authority\nAverage rate: 10.43\nBuffer length: 2.205\nMost recent transform: 1754769461.523569\nOldest transform: 1754769459.318417\n"];
+"horizontal_arm" -> "claw_support"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"claw_support" -> "gripper_left"[label=" Broadcaster: default_authority\nAverage rate: 10.43\nBuffer length: 2.205\nMost recent transform: 1754769461.523569\nOldest transform: 1754769459.318417\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1754769461.5518117"[ shape=plaintext ] ;
+}->"world";
+}
