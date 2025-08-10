@@ -48,7 +48,6 @@ arduinobot_ws/                      # Workspace root (this repo)
 └── README.md
 ```
 
-> You can keep your workspace directory named `arduinobot_ws` locally; the GitHub repo name can be `ros2-jazzy-manipulator`.
 
 ---
 
@@ -193,11 +192,10 @@ This project is released under the **MIT License** (see `LICENSE`).
 
 ## Screenshots / Demo
 
-Add images to `media/` and reference them like:
 
 ```md
 ![RViz](media/Rviz2.png)
-![Gazebo](media/Gazebo&moveit.png)
+![Gazebo & MoveIt](media/Gazebo&moveit.png)
 ```
 
 ---
@@ -237,7 +235,6 @@ Makefile
 Thumbs.db
 ```
 
-> Note: RViz configs, meshes, and YAML files **are intentionally not ignored** so they remain versioned.
 
 ---
 
