@@ -196,8 +196,8 @@ This project is released under the **MIT License** (see `LICENSE`).
 Add images to `media/` and reference them like:
 
 ```md
-![RViz](media/rviz_display.png)
-![Gazebo](media/gazebo_spawn.png)
+![RViz](media/Rviz2.png)
+![Gazebo](media/Gazebo&moveit.png)
 ```
 
 ---
